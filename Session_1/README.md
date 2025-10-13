@@ -1,5 +1,4 @@
-# Python Tutorial (Liao Xuefeng) - Pages 26-102
-Translated with Code Examples for GitHub
+# Python Tutorial - Session 1
 
 
 ## 1. Python Basics
