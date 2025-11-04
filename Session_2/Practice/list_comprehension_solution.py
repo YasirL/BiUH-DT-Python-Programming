@@ -1,6 +1,7 @@
 #使用内建的 isinstance 函数可以判断一个变量是不是字符串
 #请修改列表生成式，通过添加 if 语句保证列表生成式能正确地执行：
 L1 = ['Hello', 'World', 18, 'Apple', None]
+L_temp = [x for x in L1 if isinstance(x, str)] #['Hello', 'World','Apple']
 L2 = [x.lower() for x in L1 if isinstance(x, str)]
 # 测试:
 print(L2)
